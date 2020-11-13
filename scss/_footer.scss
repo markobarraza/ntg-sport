@@ -1,0 +1,94 @@
+.container_footer-part1 {
+    background-color: $ntg-gray2;
+    padding: 50px 0;
+    text-align: center;
+    .icon_ntg-footer{
+        font-size: 30px;
+    }
+    .container-info_footer{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 20px 0;
+        @media (min-width: 320px) and (max-width: 992px){
+            flex-wrap: wrap;
+            justify-content: inherit;
+        }
+        .info_box1{
+            padding: 0;
+            margin: 10px 50px;
+            text-align: left;
+            .box-title{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                padding: 5px 0;
+                border-bottom: 1px solid #727272;
+                .icon_footer{
+                    font-size: 20px;
+                    padding-right: 10px;
+                    margin: 0;
+                }
+                .title_footer{
+                    display: inline;
+                    font-size: 13px;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    margin: 0;
+                    
+                }
+            }
+            .text_footer {
+                width: 100%;
+                max-width: 250px;
+                font-size: 12px;
+                color: #D1D2D0;
+                color: $ntg-gray;
+                line-height: 16px;
+                margin: 10px 0;
+                display: inline;
+            }
+            .container-icon_footer{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                .text_icon-footer{
+                    font-size: 14px;
+                    color: #D1D2D0;
+                    color: $ntg-gray;
+                    line-height: 16px;
+                    margin: 5px 6px 10px 0;
+                }
+                .icon-footer {
+                    width: auto;
+                    color: $ntg-white;
+                    line-height: 16px;
+                    padding: 5px 0 10px 0;
+                }
+            }
+        }
+    }
+}
+.container_footer-part2 {
+    background-color: $ntg-black;
+    padding: 30px 0;
+    .container-objetivos_footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        @media (min-width: 320px) and (max-width: 992px){
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .objetivo_footer{
+            font-size: 12px;
+            color: #D1D2D0;
+            background-color: #272727;
+            padding: 5px 10px;
+            @media (min-width: 320px) and (max-width: 992px){
+                margin: 3px 2px;
+            }
+        }
+    }
+}

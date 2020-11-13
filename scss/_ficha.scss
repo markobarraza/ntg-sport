@@ -1,0 +1,218 @@
+.container-ficha{
+    background-color: white;
+    margin: 30px auto;
+    padding: 20px 0;
+    .volver{
+        display: inline-block;
+        padding: 8px 10px;
+        z-index: 99;
+        margin: 0 0 0 20px;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+        &:hover{
+            background-color: #f0f0f0;  
+        }
+        .volver-icon{   
+            font-size: 40px;
+            color: #c2c2c2;
+            display: inline-block;            
+        }
+    }
+    .container-ficha_inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-bottom: 1px solid $ntg-white3;
+        margin: 0 30px;
+        @media (min-width: 320px) and (max-width: 992px){
+            display: inherit;
+            margin: 0 10px;
+            border-bottom: none;
+        }
+        .container-img{
+            max-width: 470px;
+            width: 100%;
+        }
+        .container-informacion{
+            text-align: left;
+            
+            .title {
+                font-size: 20px;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: $ntg-green;
+                margin: 0;
+            }
+            .description {
+                font-size: 14px;
+                color: #acacac;
+                border-bottom: 1px solid $ntg-gray;
+                padding: 0 0 10px 0;
+            }
+            .container-icons {
+                padding: 0;
+                margin: 0;
+
+                .container-icon_inner {
+                    display: inline-block;
+                    padding: 0 20px 0 0;
+                    text-align: center;
+
+                    .icon_ntg {
+                        color: $ntg-white;
+                        display: inline-block;
+                        font-size: 1.25rem;
+                        background-color: $ntg-green;
+                        padding: 5px;
+                        border-radius: 5px;
+                        -webkit-border-radius: 5px;
+                        -moz-border-radius: 5px;
+                        -ms-border-radius: 5px;
+                        -o-border-radius: 5px;
+                    }
+                    .icon-title {
+                        font-family: Arial, Helvetica, sans-serif !important;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 0.5rem;
+                        color: $ntg-green;
+                        text-transform: uppercase;
+                        font-weight: 900;
+                        margin: 4px 0;
+                        padding: 0;
+                    }
+                }
+            }
+            .objetivo{
+                font-size: 20px;
+                font-weight: 800;
+                text-transform: uppercase;
+                color: $ntg-gray2;
+                margin: 30px 0 0 0;
+            }
+            .line{
+                display: block;
+                width: 60px;
+                height: 5px;
+                background-color: $ntg-gray2;
+                margin: 10px 0;
+            }
+            .objetivos_number{
+                font-size: 20px;
+                font-weight: 700;
+                color: #b8b8b8;
+                display: inline-block;
+                margin: 0 15px 0 0;
+            }
+            .active{
+                color: $ntg-green;
+            }
+            .title_objetivo{
+                font-size: 15px;
+                font-weight: 700;
+                color: $ntg-gray2;
+                text-transform: uppercase;
+                margin: 20px 0 10px 0;
+            }
+            .text_objetivo{
+                font-size: 13px;
+                color: $ntg-gray2;
+                width: 100%;
+                max-width: 300px;
+                margin: 0;
+            }
+            .box-tag{
+                margin-top: 10px;
+                .tag{
+                    font-size: 0.8125rem;
+                    text-transform: uppercase;
+                    background-color: $ntg-gray2;
+                    color: $ntg-white;
+                    padding: 5px 10px;
+                    margin-right: 5px;
+                    letter-spacing: .6px;
+                    z-index: 999;
+                }
+            }
+            .box-sabores{
+                margin: 10px 0;
+                .text_sabores{
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    background-color: $ntg-green2;
+                    color: $ntg-white;
+                    padding: 5px 10px;
+                    margin: 0 5px 0 0;
+                    letter-spacing: .6px;
+                    z-index: 999;
+                    &:hover{
+                        background-color: $ntg-greenblack;
+                    }
+                }
+            }
+            
+        }
+    }
+    .container-ficha_inner-2{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        @media (min-width: 320px) and (max-width: 992px){
+            display: inherit;
+        }
+        .container-part_2{
+            width: 100%;
+            text-align: center;
+            margin: 0 20px;
+            @media (min-width: 320px) and (max-width: 992px){
+                margin: 0;
+            }
+            .title{
+                font-size: 20px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                background-color: $ntg-gray2;
+                padding: 10px 30px;
+            }
+            .container-text{
+                text-align: left;
+                color: $ntg-gray2;
+                margin: 0 30px;
+                .container-text-title{
+                    font-size: 17px;
+                    letter-spacing: 1px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    margin: 15px 0;
+                }
+                .description{
+                    font-size: 13px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}   
+
+// Recomendados
+.container-recomedados {
+    margin: 20px 0;
+    margin: 0 auto;
+
+    .recomendado-1 {
+        text-align: center;
+        .recomendado-img{
+            margin: 0;
+        }
+        .title {
+            font-size: 13px;
+            font-weight: 700;
+            color: $ntg-gray2;
+            text-transform: uppercase;
+            margin: 5px 0;
+        }
+    }
+}

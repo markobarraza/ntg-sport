@@ -1,0 +1,50 @@
+.embajadores{
+    padding: 100px 0 0 0;
+    margin: 0;
+    @media (min-width: 320px) and (max-width: 768px){
+        padding: 50px 0 0 0;
+    }
+    .slider-embajador{
+        position: relative;
+        .img-embajador{
+            
+        }
+        .info_embajador{
+            position: absolute;
+            z-index: 5;
+            bottom: 0;
+            margin: 25px 10px;
+            text-align: left;
+            .name{
+                font-size: 20px;
+                text-transform: uppercase;
+                font-weight: 700;
+                letter-spacing: .7px;
+                margin: 10px 0;
+                padding: 0;
+            }
+            .profesion{
+                font-size: 11px;
+                text-transform: uppercase;
+                color: $ntg-white3;
+                letter-spacing: 1px;
+                margin: 10px 0;
+                padding: 0;
+            }
+            .rrss_embajador{
+                display: inline-block;
+                background-color: $ntg-white;
+                // background-color: red;
+                padding: 7px;
+                border-radius: 50px;
+                -webkit-border-radius: 50px;
+                -moz-border-radius: 50px;
+                -ms-border-radius: 50px;
+                -o-border-radius: 50px;
+                &:before{
+                    color: black;
+                }
+            }
+        }
+    }
+}

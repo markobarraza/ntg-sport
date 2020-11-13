@@ -1,0 +1,36 @@
+.container-ntg_title{
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    @media (min-width: 320px) and (max-width: 992px){
+        text-align: left;
+    }
+    .ntg_title-home {
+        font-size: 25px;
+        color: $ntg-gray2;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 0;
+        padding: 0;
+    }
+    .line {
+        background-color: $ntg-black;
+        height: 5px;
+        width: 50px;
+        margin: 15px auto;
+        padding: 0;
+        @media (min-width: 320px) and (max-width: 992px){
+            margin: 15px 0;
+        }
+    }
+    .ntg_sub-title{
+        font-size: 13px;
+        color: $ntg-gray;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -1,0 +1,93 @@
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.swiper-container_header{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+.swiper-slide{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 320px) and (max-width: 992px){
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+.arrow-swiper{
+    color: $ntg-gray2;
+
+}
+// tamaño de las flechas
+:root {
+ --swiper-navigation-size:15px;
+}
+.swiper-pagination-bullet{
+    background-color: $ntg-green;
+}
+.swiper-pagination-bullet-active{
+    background-color: $ntg-green;
+}
+
+// slider Objetivos
+
+.swiper-container-mb {
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    padding: 150px 0 0 0;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    z-index: 1;
+    @media (min-width: 320px) and (max-width: 992px){
+        position: inherit;
+        padding: 270px 0 0 0;
+    }
+    
+}
+.arrow-swiper_mb {
+    font-size: 10px;
+    color: $ntg-green;
+    top: 60%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+// Slider Embajadores
+.container-test{
+    height: 100%;
+    .swiper-container_embajadores {
+        width: 75%;
+        height: 100%;
+        padding-bottom: 30px;
+        overflow: hidden;
+        margin: 0 auto;
+        @media (min-width: 320px) and (max-width: 992px) {
+            width: 100%;
+        }
+    }
+}
+
+// Slider Recomendados - Fichas
+.swiper-recomendaciones{
+    padding-bottom: 40px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 30px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+

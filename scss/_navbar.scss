@@ -1,0 +1,126 @@
+.my_nav{
+    background-color: black;
+    box-shadow: none;
+    position: sticky;
+    .brand-logo{
+        margin-left: 20px;
+        font-size: 4.1rem;
+        .logo_ntg {
+            font-size: 2.5rem;
+        }
+    }
+    ul{
+        text-transform: uppercase;
+        a{
+            font-size: 0.8125rem;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+        :hover {
+            background-color: $ntg-green2;
+        }
+        :active{
+            background-color: $ntg-green2;
+        }
+    }
+}
+
+
+
+// Menu Objetivos Desktop
+.navbar-mb {
+  background-color: $ntg-green; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  z-index: 3;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: 320px) and (max-width: 992px){
+      display: none;
+  }
+  .title-navbar{
+      font-size: 12px;
+      color: $ntg-greenblack;
+      font-weight: 900;
+      padding: 0 10px;
+  }
+}
+
+/* Style the navbar links */
+.navbar-mb a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  
+}
+
+.navbar-mb a:hover {
+  background-color: $ntg-green2;
+  color: $ntg-white;
+}
+
+.fixed-action-btn{
+    right: 20px;
+    bottom: 30px;
+}
+.fixed-action-btn-index{
+    right: 20px;
+    bottom: 80px !important;
+}
+.container-btn_floating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(1, 198, 181);
+    background: rgb(1, 198, 181, 0.7);
+    width: 50px !important;
+    height: 50px !important;
+    &:hover{
+        background-color: #019286;       
+    }
+    .container_icon{
+        line-height: 15px;
+        h4{
+            font-size: 8px;
+            text-transform: uppercase;
+            margin: 0;
+            color: $ntg-greenblack;
+        }
+    }
+}
+
+.btn_floating-inner{
+    background-color: #01C6B5 !important;
+    &:hover{
+        background-color: #01C6B5;       
+    }
+}
+.icon_insta-navbar{
+    font-size: 15px;
+    margin: 0;
+    padding: 13px 14px 10px 14px ;
+    color: white;
+    position: relative;
+    z-index: 50;
+    background-color: $ntg-green2;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+
+
+
